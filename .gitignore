@@ -1,0 +1,105 @@
+# ================================
+
+# Unreal Engine 5 .gitignore
+
+# ================================
+
+# ---------- General ----------
+
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.log
+*.tmp
+*.pdb
+*.obj
+*.o
+*.exe
+*.dll
+*.app
+*.ipa
+
+# ---------- OS ----------
+
+.DS_Store
+Thumbs.db
+
+# ---------- Unreal Build ----------
+
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# ---------- Unreal Project Files ----------
+
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.VC.db
+.vscode/
+.idea/
+
+# ---------- Rider ----------
+
+.idea/
+*.DotSettings.user
+
+# ---------- Visual Studio ----------
+
+.vs/
+
+# ---------- Unreal AutoSDK ----------
+
+Engine/Extras/
+Engine/Programs/UnrealBuildTool/
+
+# ================================
+
+# Plugin Rules
+
+# ================================
+
+# Ignore all plugin build artifacts
+
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/DerivedDataCache/
+
+# -------------------------------
+
+# Meta XR Plugin Specific
+
+# -------------------------------
+
+# Ignore MetaXR compiled/build data
+
+Plugins/MetaXR/Binaries/
+Plugins/MetaXR/Intermediate/
+Plugins/MetaXR/DerivedDataCache/
+
+# DO NOT ignore:
+
+# Plugins/MetaXR/Source/
+
+# Plugins/MetaXR/Resources/
+
+# Plugins/MetaXR/Config/
+
+# Plugins/MetaXR/*.uplugin
+
+# ================================
+
+# Keep Important Project Files
+
+# ================================
+
+!Config/
+!Content/
+!Plugins/
+!Source/
+!*.uproject
+!*.uplugin
