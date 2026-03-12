@@ -12,7 +12,7 @@
 	"SupportURL": "https://forums.oculusvr.com/developer",
 	"EngineVersion": "5.6.0",
 	"CanContainContent": true,
-	"Installed": false,
+	"Installed": true,
 	"SupportedTargetPlatforms": [
 		"Win64",
 		"Android"
@@ -124,7 +124,31 @@
 				"Android"
 			]
 		},
-		
+		{
+			"Name": "MRUtilityKit",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "MRUtilityKitEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MRUtilityKitPcaEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
 		{
 			"Name": "OculusXRColocation",
 			"Type": "Runtime",
