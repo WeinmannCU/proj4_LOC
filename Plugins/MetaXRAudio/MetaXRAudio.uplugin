@@ -12,7 +12,7 @@
 	"SupportURL": "https://communityforums.atmeta.com/t5/Unreal-VR-Development/bd-p/dev-unreal",
 	"EngineVersion": "5.6.0",
 	"CanContainContent": true,
-	"Installed": true,
+	"Installed": false,
 	"Modules": [
 		{
 			"Name": "MetaXRAudio",
